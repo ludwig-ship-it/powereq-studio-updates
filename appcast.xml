@@ -8,10 +8,25 @@
         <description>Most recent updates for ⚡️EQ Studio.</description>
         <language>en</language>
 
-        <!-- Release items appear below this comment, newest first. See Updates/SETUP.md
-             for the workflow. Each item is built from notarize.sh's output plus the
-             GitHub Release download URL. Schema reference:
-             https://sparkle-project.org/documentation/publishing/ -->
+        <item>
+            <title>Version 1.0.1</title>
+            <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Fixed rendering on Macs running Light Mode — all controls, labels, and meters are now visible regardless of system appearance.</li>
+                    <li>New: "Buy License" button in the trial banner.</li>
+                    <li>New: User Guide link in the app footer and under the Help menu.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.1/PowerEQ%20Studio.dmg"
+                sparkle:edSignature="PASTE_ED_SIGNATURE_FROM_NOTARIZE_OUTPUT"
+                length="PASTE_LENGTH_FROM_NOTARIZE_OUTPUT"
+                type="application/octet-stream"/>
+        </item>
 
     </channel>
 </rss>
