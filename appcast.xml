@@ -9,6 +9,24 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.0.4</title>
+            <pubDate>Sat, 27 Jun 2026 13:30:00 +0000</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Licensing: only the paid Payhip variant unlocks the full app. Free-variant keys are recognized as free and stay on the 7-day trial.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.4/PowerEQStudio.dmg"
+                sparkle:edSignature="wPbs5I5X0dd5ozihgo840FOg1bzzklxy3FHt4sSvCGSmr6kzwlTIUHTRrL8Z7FgzBBE05XXzwiaNsk2NcfuoCg=="
+                length="47479544"
+                type="application/octet-stream"/>
+        </item>
+
+        <item>
             <title>Version 1.0.3</title>
             <pubDate>Fri, 26 Jun 2026 20:30:00 +0000</pubDate>
             <sparkle:version>4</sparkle:version>
@@ -34,33 +52,13 @@
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>New: "My Project Preset" — save and load your custom settings as named presets, stored in Application Support.</li>
+                    <li>New: "My Project Preset" — save and load your custom settings as named presets.</li>
                 </ul>
             ]]></description>
             <enclosure
                 url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.2/PowerEQStudio.dmg"
                 sparkle:edSignature="1AoM49iJPymlPV7eKJl1zapy0Be7kCOOxwr2rxVmHz9BXNgc7BvktbkFOKE9Afr1xrvpPH8JYg29WQQF7+08BQ=="
                 length="47477990"
-                type="application/octet-stream"/>
-        </item>
-
-        <item>
-            <title>Version 1.0.1</title>
-            <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <ul>
-                    <li>Fixed rendering on Macs running Light Mode — all controls, labels, and meters are now visible regardless of system appearance.</li>
-                    <li>New: "Buy License" button in the trial banner.</li>
-                    <li>New: User Guide link in the app footer and under the Help menu.</li>
-                </ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.1/PowerEQStudio.dmg"
-                sparkle:edSignature="xQo7bpm/YqxdYI+5LEj08fyHDd43EiSso+p23E0pntwyem1CHh0z+t9hNlQAF0VJ6BoWVa0IU3FB98sEqRSgDQ=="
-                length="47412787"
                 type="application/octet-stream"/>
         </item>
 
