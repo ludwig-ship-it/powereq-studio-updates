@@ -9,20 +9,20 @@
         <language>en</language>
 
         <item>
-            <title>Version 1.0.4</title>
-            <pubDate>Sat, 27 Jun 2026 13:30:00 +0000</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>Version 1.0.5</title>
+            <pubDate>Tue, 30 Jun 2026 17:00:00 +0000</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
             <description><![CDATA[
                 <ul>
-                    <li>Licensing: only the paid Payhip variant unlocks the full app. Free-variant keys are recognized as free and stay on the 7-day trial.</li>
+                    <li>Licensing: only the paid Payhip variant unlocks the full app. Free-variant keys are recognized as free and stay on the 7-day trial. Existing paid licenses continue to work.</li>
                 </ul>
             ]]></description>
             <enclosure
-                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.4/PowerEQStudio.dmg"
-                sparkle:edSignature="wPbs5I5X0dd5ozihgo840FOg1bzzklxy3FHt4sSvCGSmr6kzwlTIUHTRrL8Z7FgzBBE05XXzwiaNsk2NcfuoCg=="
-                length="47479544"
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.5/PowerEQStudio.dmg"
+                sparkle:edSignature="Iu6h1ZxL/geiH9WSn0weMlCw4cOyuRlPV3TFOZr4j18aI8CeyrorBSL8aGjjPk7nHn6IwQroX4imPzt1E1QaBw=="
+                length="47498560"
                 type="application/octet-stream"/>
         </item>
 
@@ -41,24 +41,6 @@
                 url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.3/PowerEQStudio.dmg"
                 sparkle:edSignature="UU9beWkMOyw7Fcmky88cN8EcDYihUpiLaJJQbmUQKMCvyQa2Huq+8+EMq+z8NR9/xQsPPP2r3WcAPo3HSFniAQ=="
                 length="47478103"
-                type="application/octet-stream"/>
-        </item>
-
-        <item>
-            <title>Version 1.0.2</title>
-            <pubDate>Fri, 26 Jun 2026 12:00:00 +0000</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <ul>
-                    <li>New: "My Project Preset" — save and load your custom settings as named presets.</li>
-                </ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.0.2/PowerEQStudio.dmg"
-                sparkle:edSignature="1AoM49iJPymlPV7eKJl1zapy0Be7kCOOxwr2rxVmHz9BXNgc7BvktbkFOKE9Afr1xrvpPH8JYg29WQQF7+08BQ=="
-                length="47477990"
                 type="application/octet-stream"/>
         </item>
 
