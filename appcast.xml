@@ -9,6 +9,25 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.1</title>
+            <pubDate>Tue, 07 Jul 2026 21:30:00 +0000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>Watch Folder remembers its folders, format and preset across launches — and resumes automatically if the app quit while watching.</li>
+                    <li>True background operation: watching keeps running at full speed while the app is hidden, minimised or behind other apps.</li>
+                    <li>Live progress in the header: a "Processing 2 of 5" badge with a per-file progress bar and percentage.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.1/PowerEQStudio.dmg"
+                sparkle:edSignature="GucmJXUN1ceQdBS0R201YaZHGa17eERPbayBZLfsoH3P0mJqsGADqD1J4TivpH99YLmzEGxgVJ3BtH9buZAqAg=="
+                length="48255010"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.0</title>
             <pubDate>Tue, 07 Jul 2026 06:30:00 +0000</pubDate>
             <sparkle:version>9</sparkle:version>
