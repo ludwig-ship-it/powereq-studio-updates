@@ -9,6 +9,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Tue, 07 Jul 2026 06:30:00 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li>New repair tools: De-Click, De-Clip and De-Hum — Audio Health now fixes clicks, clipped peaks and electrical hum with one click.</li>
+                    <li>Fixed: Isolate Voice, Remove Ambience and the De-Reverb tail-ducker previously had little to no effect — all three now work as intended.</li>
+                    <li>MP3 export (256 kbps) for single files, Batch Match and the new Watch Folder.</li>
+                    <li>Delivery check after every export: integrated LUFS, true peak and loudness range with pass/fail chips for YouTube, Apple Podcasts, Spotify and EBU R128. Batch writes a loudness report CSV; 16-bit exports are dithered.</li>
+                    <li>Watch Folder: drop files in, processed files come out — with a chosen preset or your current settings.</li>
+                    <li>Sessions: Cmd-S saves the timeline; auto-save on quit with restore on launch.</li>
+                    <li>Analysis chips after import, live leveler/limiter readout, tooltips everywhere, per-slider A/B dots, keyboard shortcuts, a Setup tab, and presets that travel to and from the PowerEQ plugin.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.0/PowerEQStudio.dmg"
+                sparkle:edSignature="DrS6+gj+4b90lTFT7Tmaica4TnCf9haYP4HlRTkUpIc56E26swQo9ffYoWWzoBJO5wGKAgjo2aEnYMNNoVBXCw=="
+                length="48182477"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.0.7</title>
             <pubDate>Thu, 03 Jul 2026 19:45:00 +0000</pubDate>
             <sparkle:version>8</sparkle:version>
