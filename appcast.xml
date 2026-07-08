@@ -9,6 +9,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.2</title>
+            <pubDate>Wed, 08 Jul 2026 20:30:00 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Auto-Fix button</b> — one click scans for problems (noise, hum, clicks, clipping), applies every suggested repair, and shapes all controls from the analysis.</li>
+                    <li><b>Before / After</b> — hold the new capsule next to Play to hear the original; release for the processed sound. Looping is now gapless and keeps running while you hold it.</li>
+                    <li><b>Smarter automatic sound, tuned on real recordings</b> — loudness is calibrated to your specific clip and quiet recordings are gain-staged, so DJI/GoPro/phone tracks land at the preset's target. A second de-essing stage tames harsh wireless-mic esses.</li>
+                    <li><b>Mic &amp; Setup picks retuned</b> — Action/Wireless and Phone picks get the full leveling budget, denser compression and real preamp drive.</li>
+                    <li><b>Watch Folder catch-up</b> — optionally process files already waiting in the folder when watching starts (dropped in while the app was closed), skipping already-processed ones.</li>
+                    <li><b>Import Preset…</b> and per-preset <b>Share</b> (AirDrop, Messages, Mail).</li>
+                    <li>A/B dots survive relaunches and ride sessions; sessions remember loop and selection; the Auto-shape switch gives feedback; "already activated" instead of "invalid" when re-entering your license key.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.2/PowerEQStudio.dmg"
+                sparkle:edSignature="ARDEswUoYOlw9jwGYR+rngcxZ0EUm/3VoU7QFDeIJehY5iK5wZ//kGSHPUJNVgeO0wD4f3I/ygMd5wQwVMMODQ=="
+                length="48266598"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.1</title>
             <pubDate>Tue, 07 Jul 2026 21:30:00 +0000</pubDate>
             <sparkle:version>10</sparkle:version>
