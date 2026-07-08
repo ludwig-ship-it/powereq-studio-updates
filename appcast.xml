@@ -9,6 +9,24 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.3</title>
+            <pubDate>Thu, 09 Jul 2026 02:00:00 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Smoother, gentler sound</b> — the automatic leveling, compression, preamp warmth and brightness introduced in 1.1.2 have been re-tuned to be noticeably easier on the ears: audio lands with comfortable headroom under the loudness target, and tone shaping uses softer roll-offs. If 1.1.2 felt too hot or dense, this is the fix.</li>
+                    <li><b>Crash reporting fixed</b> — when more than one ⚡️EQ product had crash reports on your Mac, the report email could silently drop one product's reports. Every crashing product now always makes it into the email, and the email lists exactly what's attached.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.3/PowerEQStudio.dmg"
+                sparkle:edSignature="2sX5UsBlv/EL6u2roktAy5I+esO9jDFloDUEw5jU5w9+02M2RhDBI36h5fN17bvLS+Otk6QleTYTSOeB4p8QAg=="
+                length="48267159"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.2</title>
             <pubDate>Wed, 08 Jul 2026 20:30:00 +0000</pubDate>
             <sparkle:version>11</sparkle:version>
