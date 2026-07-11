@@ -9,6 +9,32 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.4</title>
+            <pubDate>Sat, 11 Jul 2026 21:02:52 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Adaptive Auto-EQ</b> — Studio now keeps tuning its EQ while audio plays, adapting to each voice and room instead of applying one static curve. It listens first and glides in once settled — a "Tuning EQ" indicator shows while it learns. On by default (Shape tab).</li>
+                    <li><b>De-Esser rebuilt</b> — sibilance control now genuinely bites at every recording level, and the new De-Ess Listen toggle plays only what's being removed.</li>
+                    <li><b>Calibrated against professional processing</b> — every preset and mic profile re-tuned on real before/after pairs mastered by a professional reference pipeline.</li>
+                    <li><b>Leveler overhauled</b> — gain holds through pauses (no more volume swelling up when a speaker resumes), faster attack, better lift for quiet passages, plus new Attack, Release and Threshold sliders.</li>
+                    <li><b>Your Microphone, redesigned</b> — clearer full-width mic section; after Analyze, Studio suggests the matching mic with a one-click Use This Mic button.</li>
+                    <li><b>Mic picks</b> — retuned Lav and Boom, new USB Mic, and Phone / On-Camera split into Indoor and Outdoor.</li>
+                    <li><b>Faster exports</b> — channels render in parallel; long files no longer slow the app down.</li>
+                    <li><b>Notifications</b> — macOS notices when an export, batch match or watch-folder file finishes; click to reveal in Finder. The Delivery check's file name is clickable too.</li>
+                    <li><b>Rock-solid long clips</b> — 35-minute-plus files play cleanly; switching settings during playback no longer distorts or echoes.</li>
+                    <li><b>YouTube preset</b> — now brings compression, extra leveling and stronger de-essing. Plus: double-click any slider to reset it, and cleaner noise-gate gaps.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.4/PowerEQStudio.dmg"
+                sparkle:edSignature="lekiu5ZIPnC54qFmbYK19jjp1p/u16rlYClg7X1+UgOCrkYWeiOuirV47tsxVIrlA8sVsB9i8TRiW98bWu1yBw=="
+                length="48374171"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.3</title>
             <pubDate>Thu, 09 Jul 2026 02:00:00 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
