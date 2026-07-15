@@ -9,6 +9,26 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.5</title>
+            <pubDate>Wed, 15 Jul 2026 15:11:24 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Channel EQ, right on the spectrum</b> — the Live Frequency graph is now an EQ editor: six bands (low cut, low shelf, three peaks, high shelf) with draggable numbered handles. Select a peak and drag its width grips apart or together, with the affected range highlighted; double-click a handle to reset it. The curve is computed from the exact filters the audio runs — what you draw is what you hear. Bands save per clip, in sessions and presets; your sound is untouched until you move a band.</li>
+                    <li><b>Volume line on the waveform</b> — drag the yellow line (or its knob) to trim output level, in lockstep with the Volume slider. Double-click for 0 dB.</li>
+                    <li><b>Smarter waveform</b> — a dimmed indicator follows your cursor showing where a click will land the playhead; click to seek, drag to select.</li>
+                    <li><b>New app icon</b> — native macOS 26 layered icon, full-size with the system's glass look (no more shrunken icon on a plate); upgraded classic icon on macOS 13–15.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.5/PowerEQStudio.dmg"
+                sparkle:edSignature="zViujlqlUOWAdxILSJttyVJw9hu9JsjIv0wvcHw4N+kGyObC04nf9ntiveT6YpYWwFLymSquXeMScq1l+JZbCg=="
+                length="50325217"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.4</title>
             <pubDate>Sat, 11 Jul 2026 21:02:52 +0000</pubDate>
             <sparkle:version>13</sparkle:version>
