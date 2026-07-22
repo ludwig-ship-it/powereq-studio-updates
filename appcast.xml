@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.6</title>
+            <pubDate>Wed, 22 Jul 2026 20:05:00 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Multichannel, done properly</b> — files with more than two channels now import with every channel preserved, and channel groups give each channel (or linked stereo pair) its own processing path: its own Analyze, auto-detected mic, controls and Channel EQ. Click a pill or meter bar to choose what you edit; the waveform and spectrum follow.</li>
+                    <li><b>Mute / Solo / pass-through per group</b> — M and S switches under every meter bar (solo is playback-only; mute exports as silence), plus a per-group FX badge to pass a channel through untouched. Pills show the file's own track names when the recorder wrote them.</li>
+                    <li><b>MP3 fold-down</b> — MP3 stays stereo, so multichannel timelines fold down by group with a clear warning. WAV/AIFF/M4A keep every channel.</li>
+                    <li><b>Auto mic</b> — leave the mic on Auto and Analyze applies the detected profile, per channel group on multichannel files.</li>
+                    <li><b>Newest voice engine</b> — broadcast-warm preset voicings, smoother sentence starts and endings, instant level lock.</li>
+                    <li><b>Fixes</b> — Auto Fix crash on 96 kHz files; crash reports label which product each attachment belongs to; meters fit any channel count.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.6/PowerEQStudio.dmg"
+                sparkle:edSignature="hc4Io3BIa/hmX+Hvp7P0j50ZkOmEw7iLN5Q2g9c9Fke7HpyjU39nv7c4IXcYnzIJ6GlhC1/kM2mb6cy5nJJbAA=="
+                length="50485941"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.5</title>
             <pubDate>Wed, 15 Jul 2026 15:11:24 +0000</pubDate>
             <sparkle:version>14</sparkle:version>
