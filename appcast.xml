@@ -9,6 +9,27 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.8</title>
+            <pubDate>Fri, 11 Sep 2026 00:39:04 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>A stronger, simpler Analyze</b>: the spectral match is now the single automatic tone corrector, applied at full strength against a target re-tuned on the Auphonic reference corpus. Analyze and the microphone profiles no longer pre-set Reduce Boominess, Add Clarity or Add Brightness; they start at zero and are yours to shape by hand. Those three used to be re-derived from the same measurements the match already corrects, and Reduce Boominess sat at its maximum on nearly every real recording. That missing body is what "tinny" reports were hearing.</li>
+                    <li><b>Level-invariant analysis</b>: quiet recordings (wireless mics around -40 LUFS) used to analyze brighter than loud ones. The same clip now gets the same correction at any recording level.</li>
+                    <li><b>Mic suggestion reads the sound, not the level</b>, and Batch Match now lands on the reference's tone instead of halfway there.</li>
+                    <li><b>Sessions from earlier versions</b> reopen with Reduce Boominess, Add Clarity and Add Brightness reset to zero; every other saved control is kept.</li>
+                    <li><b>New app icon.</b></li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.8/PowerEQStudio.dmg"
+                sparkle:edSignature="alooUv3tQxO/F18nQqvKedJL2+ImIuYxoviaqi7Zz4MouQQHfGvZPXr7jC/v5ZE0yLhZlahtt2uIhfMHVri5Cw=="
+                length="52158967"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.7</title>
             <pubDate>Sun, 09 Aug 2026 17:30:00 +0000</pubDate>
             <sparkle:version>16</sparkle:version>
