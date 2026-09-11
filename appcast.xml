@@ -9,6 +9,24 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.9</title>
+            <pubDate>Fri, 11 Sep 2026 20:24:37 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Analyze measures your room.</b> De-Reverb, Remove Ambience, Isolate Voice and Noise Cleanup are now set from the recording itself: how the sound decays after each word, how deep and how real the pauses are, and whether the noise it found is actually noise. A dry close mic in a treated room no longer gets reverb removal or gating it never needed; a roomy capture keeps its treatment. Where the evidence is weak, the microphone profile's settings still apply. Long timelines are measured excerpt by excerpt.</li>
+                    <li><b>Safer cleanup.</b> If the quiet moments of a clip are not believable as pure noise (continuous speech, a music bed or tonal hum), Noise Cleanup stays at Light and the gates stay gentle.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.1.9/PowerEQStudio.dmg"
+                sparkle:edSignature="lNn11s0hHCkTpqRI381Kgid/wZvTKB+EzA1E2r4BDOwIAgSkJTGp/RpXBfozTGVsd37WqLTzkqndNNqE/OlhDw=="
+                length="52174433"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.8</title>
             <pubDate>Fri, 11 Sep 2026 00:39:04 +0000</pubDate>
             <sparkle:version>17</sparkle:version>
