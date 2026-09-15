@@ -9,6 +9,24 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.0</title>
+            <pubDate>Tue, 15 Sep 2026 13:48:40 +0000</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>A smoother, film-like default for every voice.</b> The automatic EQ now aims at a warmer curve, the kind of dialogue tone you hear in a feature film, instead of a bright broadcast sound. It may still cut harshness freely, but it only adds a little presence, almost no extra air, and never adds low end underneath a voice's fundamental. On a wide range of real recordings this roughly halves the top-end lift that made some voices sound harsh or abrasive, for men and women alike. The Bro preset keeps its deliberately big sound.</li>
+                    <li><b>Existing projects keep their sound</b> until you press Analyze again. While audio plays, the live re-fitting may ease the tone toward the new curve by up to about a decibel.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.2.0/PowerEQStudio.dmg"
+                sparkle:edSignature="CzQhbGf4zMFfFQY3bnTuibRaTptx/JCc+/vPL335NFOguKmwA60FnnGLCxXgLYosdoIihXV2VzDdBjKiAAWsCw=="
+                length="52174361"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.1.9</title>
             <pubDate>Fri, 11 Sep 2026 20:24:37 +0000</pubDate>
             <sparkle:version>18</sparkle:version>
