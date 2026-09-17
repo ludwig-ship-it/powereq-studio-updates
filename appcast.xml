@@ -9,24 +9,6 @@
         <language>en</language>
 
         <item>
-            <title>Version 1.2.1</title>
-            <pubDate>Thu, 17 Sep 2026 18:26:02 +0000</pubDate>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <ul>
-                    <li><b>No more hollow midrange.</b> The automatic EQ used to line every voice up against its target at a single point, 1 kHz, which left a narrow bump there and a dip around 2 kHz on almost every recording. On a clean, well-balanced microphone that carve was all you heard: a hollow sound with less presence. Voice and target are now lined up across the whole midrange, a typical voice gets no midrange carving at all, and small differences are simply left alone.</li>
-                    <li><b>Good microphones keep their presence.</b> The automatic EQ may now take at most 2.5 dB off the top of a recording. Real harshness is still handled by the de-esser.</li>
-                </ul>
-            ]]></description>
-            <enclosure
-                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.2.1/PowerEQStudio.dmg"
-                sparkle:edSignature="Jzw0D0n8vWrNmmDdMychXTby5k2yWVo+n9eD/HJZF6hXY+8EuKATqK/yNFGTkrQ1KznDiUahpeAb/JJ358cQDw=="
-                length="52175374"
-                type="application/octet-stream"/>
-        </item>
-        <item>
             <title>Version 1.2.0</title>
             <pubDate>Tue, 15 Sep 2026 13:48:40 +0000</pubDate>
             <sparkle:version>19</sparkle:version>
