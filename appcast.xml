@@ -9,6 +9,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.2</title>
+            <pubDate>Wed, 21 Oct 2026 03:34:00 +0000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Voice Isolation.</b> A new row at the top of the Shape tab cleans the recording before EQ Studio shapes it. Choose Off or Standard. It runs by itself when you choose it and when you open a session.</li>
+                    <li><b>Standard.</b> Removes background noise and room sound and keeps your voice as recorded. Amount sets how much of the isolated voice you hear. Nothing to install.</li>
+                    <li><b>Clean Pauses.</b> Turns down the gaps between phrases without cutting into words. It is a switch of its own and also works with Voice Isolation set to Off.</li>
+                    <li><b>Fixed: Mix below 100 percent.</b> The exported file now matches what you hear in the app.</li>
+                    <li><b>Fixed: output above -1 dB.</b> With Volume raised, or with Mix below 100 percent, the output could go over the -1 dB ceiling. It no longer does.</li>
+                    <li><b>Fixed: Export Clips and channel groups.</b> Export Clips now follows channel groups like the normal export.</li>
+                    <li><b>Also fixed.</b> Sessions bring the controls back as saved. Noise Cleanup no longer delays the audio by 16 ms. Batch Match turns down a file that came out too loud.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.2.2/PowerEQStudio.dmg"
+                sparkle:edSignature="4aBUX2ej1WPHT0BB+lH+DhJM3XtL8WV0Q/GTUgTX5eMoDcfTWINCqUzyIWz0AYSYbI7+D3RY0e2K46qCfqcXCA=="
+                length="53086329"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.2.1</title>
             <pubDate>Thu, 17 Sep 2026 18:26:02 +0000</pubDate>
             <sparkle:version>20</sparkle:version>
