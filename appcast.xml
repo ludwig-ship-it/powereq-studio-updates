@@ -9,6 +9,31 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.3 beta 1</title>
+            <pubDate>Sat, 31 Oct 2026 21:23:39 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.2.3b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>A new design.</b> The workspace, the Shape, Advanced and Setup tabs, Batch Match and the Watch Folder sheet are redrawn, with a divider you can drag between the visuals and the settings.</li>
+                    <li><b>Loudness on the delivered file.</b> The Target is measured on the two-channel file that platforms and editors read, and the output stays at or under -1 dBTP true peak. EQ Studio aims 1.5 LU under the Target, so the file lands inside the range.</li>
+                    <li><b>Delivery checks.</b> YouTube, Spotify, Apple Podcasts and EBU R128 are each checked against their own published number. "Your target" is checked against the level EQ Studio aims for.</li>
+                    <li><b>Batch Match.</b> The report names the matched level and says when a file hit the peak limit or the boost limit.</li>
+                    <li><b>Quiet, noisy recordings.</b> Auto turns on Noise Cleanup Light when the recording needs a lot of gain and has a clear noise print.</li>
+                    <li><b>Stereo.</b> A real stereo recording keeps its width. The Doubler on a dual-mono file plays both channels alike.</li>
+                    <li><b>Fixed.</b> A click on the waveform right after playback stopped by itself could be lost. Sliders and menus read better with VoiceOver.</li>
+                    <li><b>The beta.</b> Its own 14-day trial; a license works too.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.2.3-b1/EQStudio-Beta-1.2.3b1.dmg"
+                sparkle:edSignature="q3jcC0M2LSKrkgXidPQu3YbJXeRjZEMhbLyfvQ0U3jI1Wcze6w9r2R6BEXvBcdzMLcaim7a38RHbs3f8DAAVAQ=="
+                length="53551366"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.2.2</title>
             <pubDate>Wed, 21 Oct 2026 03:34:00 +0000</pubDate>
             <sparkle:version>21</sparkle:version>
