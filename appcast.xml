@@ -9,6 +9,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.3</title>
+            <pubDate>Mon, 02 Nov 2026 23:26:57 +0000</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>A new design.</b> One window with Shape, Advanced and Setup as boxed tabs with icons, and a divider you can drag between the visuals and the settings. Choices fill their card, and an i button explains Auto-shape and the Listen switches.</li>
+                    <li><b>Loudness on the delivered file.</b> The Target is measured on the two-channel file that platforms and editors read, and the output stays at or under -1 dBTP true peak. EQ Studio aims 1.5 LU under the Target, so the file lands inside the range.</li>
+                    <li><b>Delivery checks.</b> YouTube, Spotify, Apple Podcasts and EBU R128 are each checked against their own published number.</li>
+                    <li><b>Batch Match.</b> The report names the matched level and says when a file hit the peak limit or the boost limit.</li>
+                    <li><b>Quiet, noisy recordings.</b> Auto turns on Noise Cleanup Light when the recording needs a lot of gain and has a clear noise print.</li>
+                    <li><b>Stereo.</b> A real stereo recording keeps its width. The Doubler on a dual-mono file plays both channels alike.</li>
+                    <li><b>Fixed.</b> A click on the waveform right after playback stopped by itself could be lost. Sliders and menus read better with VoiceOver.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.2.3/PowerEQStudio.dmg"
+                sparkle:edSignature="BehWgxoKNHDxe4eBrXp4+bniNCkGB0nz89odpRu+tUNPMuxDODe0IOAHgQV3RuxykPdPndODD5m1wBkUlyqzAA=="
+                length="53687478"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.2.3 beta 2</title>
             <pubDate>Mon, 02 Nov 2026 22:35:14 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
