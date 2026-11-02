@@ -9,6 +9,28 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.3 beta 2</title>
+            <pubDate>Mon, 02 Nov 2026 22:35:14 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.2.3b2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Clearer tabs.</b> Shape, Advanced and Setup are now boxed tabs with icons, so you can see at a glance where you are.</li>
+                    <li><b>Choices fill their card.</b> The option buttons line up from one label column to the right edge, sized to the space.</li>
+                    <li><b>Fewer words on screen.</b> Auto-shape and the Listen switches have an i button that explains them. The Advanced sliders have tooltips, including the De-Rustle Width.</li>
+                    <li><b>Installer.</b> The arrow sits between the icons and the background is sharp on Retina screens.</li>
+                    <li><b>Still in this beta.</b> Everything from beta 1: the new design, loudness on the delivered file, the delivery checks and Batch Match. The 14-day trial keeps the date it started with beta 1.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.2.3-b2/EQStudio-Beta-1.2.3b2.dmg"
+                sparkle:edSignature="RRauHrnBpQHD2clfSe9DzvT2JbuIkMs8S1hR+8MTaDgz3zcsct+AcgfFu4D3em0XqS8EpzIkRUIYChFrjtfhBA=="
+                length="53606245"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.2.3 beta 1</title>
             <pubDate>Sat, 31 Oct 2026 21:23:39 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
