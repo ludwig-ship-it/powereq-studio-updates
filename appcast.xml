@@ -9,6 +9,29 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.2.4 beta 1</title>
+            <pubDate>Mon, 09 Nov 2026 23:46:34 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.2.4b1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <ul>
+                    <li><b>Studio Voice Isolation, in beta.</b> The Voice Isolation card has a third choice, Studio, marked BETA. Studio is in beta. It removes more noise than Standard and can sound processed on some recordings.</li>
+                    <li><b>A one-time download.</b> The Studio setting needs a one-time download of about 480 MB. Choose Studio, then click Download Studio. The files are checked before they are used. The Setup tab shows the model line, with Show Folder and Remove...</li>
+                    <li><b>Requirements.</b> The Studio setting needs a Mac with Apple silicon. The Studio setting needs macOS 14 or later for now.</li>
+                    <li><b>A fresh 14-day trial.</b> This beta starts its own 14 days at its first launch, also if you tried beta 1 or 2.</li>
+                    <li><b>To remove the beta</b>, quit it and drag EQ Studio Beta to the Trash. Do not run the EQ Studio uninstaller while the beta is open.</li>
+                    <li><b>Still in this beta.</b> Everything in EQ Studio 1.2.3.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/ludwig-ship-it/powereq-studio-updates/releases/download/v1.2.4-b1/EQStudio-Beta-1.2.4b1.dmg"
+                sparkle:edSignature="Ff05iTdstkYx562wejS1qewlCwZrE75vRO6fnKsPzLwtudz25AYlmTrIkj7vb9irUA9COzef1FVgm0xw3+NLDg=="
+                length="53715778"
+                type="application/octet-stream"/>
+        </item>
+        <item>
             <title>Version 1.2.3</title>
             <pubDate>Mon, 02 Nov 2026 23:26:57 +0000</pubDate>
             <sparkle:version>24</sparkle:version>
